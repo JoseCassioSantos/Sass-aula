@@ -1,0 +1,15 @@
+$text-color: white;
+
+body{
+    background-color: black;
+    color: $text-color;
+}
+
+.container{
+
+    p{
+       background: lightblue;
+       border-radius: 10px; 
+    }
+
+}
