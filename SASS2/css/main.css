@@ -17,4 +17,12 @@ body {
           flex-direction: column;
   height: 100%;
 }
+
+body p {
+  background: royalblue;
+}
+
+body p + p:hover {
+  background-color: salmon;
+}
 /*# sourceMappingURL=main.css.map */

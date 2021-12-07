@@ -5,8 +5,18 @@
 }
 
 body{
+
     @extend .flex;
     flex-direction: column;
     height: 100%;
+    p{
+        background: royalblue;
+
+        & + p:hover{
+            background-color: salmon;
+        }
+    }
+
+    
 
 }

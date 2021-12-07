@@ -46,7 +46,7 @@ body{
        border-radius: 10px;
        color:$text-color;
        @include make-bold(true);
-       @include text-effect(no)
+       @include text-effect(teteu)
     }
 
 }
