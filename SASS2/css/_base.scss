@@ -1,10 +1,7 @@
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+p{
+    color: red;
+    &:hover{
+        color: royalblue;
+    }
 }
 
-body{
-    @extend .flex;
-    height: 100%;
-}
