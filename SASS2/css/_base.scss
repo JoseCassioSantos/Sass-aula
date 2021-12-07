@@ -1,7 +1,12 @@
-p{
-    color: red;
-    &:hover{
-        color: royalblue;
-    }
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+body{
+    @extend .flex;
+    flex-direction: column;
+    height: 100%;
+
+}
